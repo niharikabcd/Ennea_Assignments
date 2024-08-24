@@ -28,7 +28,7 @@ function promise()
 })
     data.catch((err) => {
         
-        var p = document.getElementById("#p1")
+        var p = document.getElementById("p1")
         p.innerHTML = `Could not get data,check your internet connection`
     })
 }
