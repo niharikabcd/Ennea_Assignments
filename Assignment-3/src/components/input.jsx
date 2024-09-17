@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react';
 import { ThemeContext } from '../ThemeContext';
-import { Lput, Xyput } from '../styled';
+import { DivWrapper, InputWrapper } from '../styled';
 export default function Input(){
     const { theme } = useContext(ThemeContext);
     const [user,setUser]=useState('user');
@@ -8,7 +8,7 @@ export default function Input(){
         setUser(newi);
     }
     return <section>
-        <Lput>
+        <DivWrapper theme={theme}>
             <p>
                 <label>enter your name</label>
                 <br/>
@@ -17,10 +17,10 @@ export default function Input(){
                     onChange={(event)=>handle(event.target.value)}/>
                     <br/>
                     <br/>
-                    <Xyput theme={theme}>
+                    <InputWrapper theme={theme}>
                         Hello {user}
-                    </Xyput>
+                    </InputWrapper>
             </p>
-        </Lput>
+        </DivWrapper>
     </section>
 }
