@@ -8,7 +8,7 @@ function App() {
       <div>
       <Layout>
         <Home/>
-        <h1>ufdyjhdjy</h1>
+        <h1></h1>
         </Layout>
         </div>
     

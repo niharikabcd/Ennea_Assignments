@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
-import { RouterProvider,Route,createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
+import { RouterProvider,Route,createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
 import Layout from './Components/Layout.jsx'
 import Home from './Components/Home.jsx'
 import FitmeLip from './Components/FitmeLip.jsx'

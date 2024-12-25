@@ -9,6 +9,7 @@
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-essentials-start": "file:",
     "styled-components": "^6.1.13"
   },
   "devDependencies": {
